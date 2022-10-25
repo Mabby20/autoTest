@@ -1,0 +1,23 @@
+{
+  "name": "hexlet-jest",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "hexlet-jest practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mabby20/autoTest.git"
+  },
+  "author": "pavel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mabby20/autoTest/issues"
+  },
+  "homepage": "https://github.com/Mabby20/autoTest#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
+}
