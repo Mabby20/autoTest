@@ -1,0 +1,15 @@
+#name of workflow
+name: hello-world
+#trigger(events) the workflow on push
+on: push
+#Jobs(задания)
+jobs:
+  #идентификатор задания
+  my-job:
+    #runner - временный сервер где запускается
+    runs-on: ubuntu-latest
+    #Steps - Jobs(задания) состоят из последоветльности шагов
+    steps:
+      #Имя шага my-step и выполнение команды shell echo
+      - name: my-step
+        run: echo "Hello World!"
